@@ -17,10 +17,10 @@
       "type": "MIT",
       "url": "https://github.com/mercadolibre/node-simple-lru-cache/blob/master/LICENSE"
   }],
-  "repositories": [{
+  "repository": {
       "type": "git",
       "url" : "http://github.com/mercadolibre/node-simple-lru-cache.git"
-  }],
+  },
   "dependencies": {
   },
   "devDependencies": {
