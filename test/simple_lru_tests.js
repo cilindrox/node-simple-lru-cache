@@ -5,7 +5,7 @@ describe("BigCache Config",function(){
         var cache = new SimpleCache({maxSize:1})
         cache.set("hello","world")
         cache.get("hello").should.equal("world")
-    })   
+    })
     it("Should drop key least used on max size",function(){
         var cache = new SimpleCache({maxSize:3})
         cache.set("a","1")
@@ -58,5 +58,5 @@ describe("BigCache Config",function(){
 
         for(var i = 0; i < 100; i++)
             cache.get(i).should.equal("value_"+i+"_modif")
-    }) 
+    })
 })
