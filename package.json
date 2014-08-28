@@ -32,6 +32,8 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "coveralls": "2.11.x",
+    "istanbul": "0.3.x",
     "lru-cache": "2.5.x",
     "mocha": "1.21.x",
     "should": "4.0.x",

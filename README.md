@@ -1,6 +1,8 @@
 node-simple-lru-cache
 =====================
 
+[![Build Status](https://travis-ci.org/gfestari/node-simple-lru-cache.svg?branch=master)](https://travis-ci.org/gfestari/node-simple-lru-cache) [![Coverage Status](https://img.shields.io/coveralls/gfestari/node-simple-lru-cache.svg)](https://coveralls.io/r/gfestari/node-simple-lru-cache)
+
 It's a very simple and extremely fast lru cache for node.js.
 
 This cache will priorize the latest used keys over the least used keys,
