@@ -1,0 +1,7 @@
+--reporter spec
+--check-leaks
+--ui bdd
+--recursive
+--growl
+--bail
+--require test/support/env
