@@ -4,6 +4,6 @@ test:
 bench:
 	npm install ttl-lru-cache
 	npm install lru-cache
-	node benckmark/bench.js 
+	node benchmark/bench.js
 
 .PHONY: test bench
